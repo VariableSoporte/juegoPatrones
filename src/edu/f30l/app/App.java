@@ -8,9 +8,7 @@ package edu.f30l.app;
 //import edu.f30l.decorator.IJugador;
 //import edu.f30l.decorator.decorador.JugadorMasPuntos;
 //import edu.f30l.entidades.Jugador;
-import edu.f30l.entidades.Preguntas;
 import edu.f30l.interfaz.PantallaPrincipal;
-import java.util.ArrayList;
 
 /**
  *
@@ -18,9 +16,6 @@ import java.util.ArrayList;
  */
 public class App {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         PantallaPrincipal pantalla = new PantallaPrincipal();
         pantalla.setVisible(true);
